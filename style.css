@@ -1,6 +1,97 @@
 *{
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #1F9590;
+}
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 110px;
+  position: absolute;
+  width: 100%;
+  height: 88px;
+  background-color: #ffffff;
+}
 
+header .logo{
+  width: 122px;
+  height: 23.02px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+header .logo a{ 
+  position: absolute;
+  width: 122px;
+  height: 23.02px;
+  left: 110px;
+  top: 32.49px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 0.5px grey;
+  color: black;
+
+}
+header nav{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  
+  width: 458px;
+  height: 24px;
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+header nav a{
+  color: #4F4D4D;
+  text-decoration: none;
+
+  /* width: 96px; */
+  height: 24px;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  
+  letter-spacing: -0.04em;
+}
+header nav a:hover{
+  text-shadow: 1px 1px 0.5px grey;
+}
+
+header button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+  font-size: larger;
+  gap: 32px;
+  
+  
+  width: 166px;
+  height: 44px;
+  
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.desktop{
+  position: absolute;
+  width: 1440px;
+  height: 504px;
+  right: 0px;
+  bottom: 0px;
+  
+  background: url(./img/home.png);
 }
